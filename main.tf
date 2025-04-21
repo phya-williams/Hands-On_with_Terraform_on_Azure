@@ -21,7 +21,7 @@ provider "azurerm" {
 
   }
   skip_provider_registration = true
-  use_cli = true
+  use_cli                    = true
 }
 
 resource "azurerm_resource_group" "rg" {
